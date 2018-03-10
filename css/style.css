@@ -4,7 +4,7 @@
 header {
   background-color: #6c5ce7; }
   header a, header h3 {
-    color: white; }
+    color: #fff; }
   header a {
     font-style: none; }
   header a:hover {
@@ -17,5 +17,11 @@ header {
 img {
   height: 100%;
   padding: 2rem; }
+  img:hover {
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px); }
 
 /*# sourceMappingURL=style.css.map */

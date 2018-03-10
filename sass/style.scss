@@ -1,17 +1,21 @@
+$white: #fff;
+$exodus-fruit:#6c5ce7;
+$shy-moment:#a29bfe;
+
 * {
   font-family: 'Roboto', sans-serif;
 }
 
 header {
-  background-color:#6c5ce7;
+  background-color:$exodus-fruit;
   a, h3 {
-    color:white;
+    color:$white;
   }
   a {
     font-style:none;
   }
   a:hover {
-    color:#a29bfe;
+    color:$shy-moment;
   }
 }
 
@@ -23,4 +27,11 @@ header {
 img {
   height:100%;
   padding:2rem;
+  &:hover {
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
+  }
 }
