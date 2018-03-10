@@ -1,0 +1,13 @@
+* {
+  font-family: 'Roboto', sans-serif; }
+
+header {
+  background-color: #6c5ce7; }
+  header a, header h3 {
+    color: white; }
+  header a {
+    font-style: none; }
+  header a:hover {
+    color: #a29bfe; }
+
+/*# sourceMappingURL=style.css.map */
