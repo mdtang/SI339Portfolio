@@ -10,4 +10,12 @@ header {
   header a:hover {
     color: #a29bfe; }
 
+.currentpage {
+  font-weight: bold;
+  text-decoration: underline; }
+
+img {
+  height: 100%;
+  padding: 2rem; }
+
 /*# sourceMappingURL=style.css.map */
