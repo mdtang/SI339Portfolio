@@ -1,14 +1,33 @@
 * {
   font-family: 'Roboto', sans-serif; }
 
-header {
-  background-color: #6c5ce7; }
-  header a, header h3 {
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px); }
+  80% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px); } }
+header, footer {
+  background-color: #6c5ce7;
+  padding: 1rem 0; }
+  header a, header h3, header p, header span, header i, footer a, footer h3, footer p, footer span, footer i {
     color: #fff; }
-  header a {
+  header span, footer span {
+    float: right;
+    padding: 0 1rem; }
+  header i, footer i {
+    padding: 0 1rem;
+    font-size: 1.5rem; }
+    header i:hover, footer i:hover {
+      animation: bounce 0.5s; }
+  header a, footer a {
     font-style: none; }
-  header a:hover {
-    color: #a29bfe; }
+    header a:hover, footer a:hover {
+      color: #a29bfe; }
 
 .currentpage {
   font-weight: bold;
@@ -16,12 +35,13 @@ header {
 
 img {
   height: 100%;
-  padding: 2rem; }
+  padding: 1.5rem 4rem; }
   img:hover {
     -webkit-filter: blur(4px);
     -moz-filter: blur(4px);
     -o-filter: blur(4px);
     -ms-filter: blur(4px);
-    filter: blur(4px); }
+    filter: blur(4px);
+    transition-duration: 1s; }
 
 /*# sourceMappingURL=style.css.map */

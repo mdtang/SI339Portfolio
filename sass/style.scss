@@ -6,17 +6,46 @@ $shy-moment:#a29bfe;
   font-family: 'Roboto', sans-serif;
 }
 
-header {
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-5px);
+		transform: translateY(-5px);
+	}
+}
+
+header , footer{
   background-color:$exodus-fruit;
-  a, h3 {
+  padding:1rem 0;
+  a, h3, p,span, i {
     color:$white;
+  }
+  span {
+    float:right;
+    padding:0 1rem;
+  }
+  i {
+    padding:0 1rem;
+    font-size:1.5rem;
+    &:hover {
+    animation: bounce 0.5s;
+    }
   }
   a {
     font-style:none;
-  }
-  a:hover {
+  &:hover {
     color:$shy-moment;
   }
+}
 }
 
 .currentpage {
@@ -26,12 +55,13 @@ header {
 
 img {
   height:100%;
-  padding:2rem;
+  padding:1.5rem 4rem;
   &:hover {
   -webkit-filter: blur(4px);
   -moz-filter: blur(4px);
   -o-filter: blur(4px);
   -ms-filter: blur(4px);
   filter: blur(4px);
+  transition-duration: 1s;
   }
 }
