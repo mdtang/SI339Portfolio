@@ -3,7 +3,7 @@ $exodus-fruit:#6c5ce7;
 $shy-moment:#a29bfe;
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 
 @keyframes bounce {
@@ -24,26 +24,25 @@ $shy-moment:#a29bfe;
 }
 
 header , footer{
-  background-color:$exodus-fruit;
+  color:$exodus-fruit;
   padding:1rem 0;
-  a, h3, p,span, i {
-    color:$white;
-  }
   span {
     float:right;
     padding:0 1rem;
   }
   i {
-    padding:0 1rem;
+    padding:0 1.5rem;
     font-size:1.5rem;
+    color:$exodus-fruit;
     &:hover {
     animation: bounce 0.5s;
     }
   }
   a {
+    color:$exodus-fruit;
     font-style:none;
   &:hover {
-    color:$shy-moment;
+    color:black;
   }
 }
 }
@@ -55,7 +54,7 @@ header , footer{
 
 img {
   height:100%;
-  padding:1.5rem 4rem;
+  padding:1.5rem;
   &:hover {
   -webkit-filter: blur(4px);
   -moz-filter: blur(4px);

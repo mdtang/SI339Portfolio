@@ -1,5 +1,5 @@
 * {
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Oxygen', sans-serif; }
 
 @keyframes bounce {
   0%, 20%, 60%, 100% {
@@ -12,22 +12,22 @@
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px); } }
 header, footer {
-  background-color: #6c5ce7;
+  color: #6c5ce7;
   padding: 1rem 0; }
-  header a, header h3, header p, header span, header i, footer a, footer h3, footer p, footer span, footer i {
-    color: #fff; }
   header span, footer span {
     float: right;
     padding: 0 1rem; }
   header i, footer i {
-    padding: 0 1rem;
-    font-size: 1.5rem; }
+    padding: 0 1.5rem;
+    font-size: 1.5rem;
+    color: #6c5ce7; }
     header i:hover, footer i:hover {
       animation: bounce 0.5s; }
   header a, footer a {
+    color: #6c5ce7;
     font-style: none; }
     header a:hover, footer a:hover {
-      color: #a29bfe; }
+      color: black; }
 
 .currentpage {
   font-weight: bold;
@@ -35,7 +35,7 @@ header, footer {
 
 img {
   height: 100%;
-  padding: 1.5rem 4rem; }
+  padding: 1.5rem; }
   img:hover {
     -webkit-filter: blur(4px);
     -moz-filter: blur(4px);
