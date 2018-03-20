@@ -51,10 +51,11 @@ header , footer{
   font-weight:bold;
   text-decoration:underline;
 }
-
 img {
-  height:100%;
+  width:100%; /* keeps images the same width */
   padding:1.5rem;
+}
+.frontpageimages {
   &:hover {
   -webkit-filter: blur(4px);
   -moz-filter: blur(4px);
@@ -64,3 +65,5 @@ img {
   transition-duration: 1s;
   }
 }
+
+#logo {width:50%;}
