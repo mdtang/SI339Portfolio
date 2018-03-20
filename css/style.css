@@ -36,7 +36,8 @@ header, footer {
 img {
   width: 100%;
   /* keeps images the same width */
-  padding: 1.5rem; }
+  padding: 10px;
+  margin: 0; }
 
 .frontpageimages:hover {
   -webkit-filter: blur(4px);
