@@ -1,6 +1,6 @@
 $white: #fff;
-$exodus-fruit:#6c5ce7;
-$shy-moment:#a29bfe;
+$main-color:#034F84;
+$brighter-color:#4e83a8;
 
 * {
   font-family: 'Oxygen', sans-serif;
@@ -24,7 +24,7 @@ $shy-moment:#a29bfe;
 }
 
 header , footer{
-  color:$exodus-fruit;
+  color:$main-color;
   padding:1rem 0;
   span {
     float:right;
@@ -33,16 +33,16 @@ header , footer{
   i {
     padding:0 1.5rem;
     font-size:1.5rem;
-    color:$exodus-fruit;
+    color:$main-color;
     &:hover {
     animation: bounce 0.5s;
     }
   }
   a {
-    color:$exodus-fruit;
+    color:$main-color;
     font-style:none;
   &:hover {
-    color:black;
+    color:$brighter-color;
   }
 }
 }
@@ -71,4 +71,9 @@ img {
 
 h3 {
   font-weight:bold;
+}
+
+.weightlossimages {
+  padding: 150px 0;
+  width:50%;
 }

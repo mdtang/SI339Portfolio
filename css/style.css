@@ -12,7 +12,7 @@
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px); } }
 header, footer {
-  color: #6c5ce7;
+  color: #034F84;
   padding: 1rem 0; }
   header span, footer span {
     float: right;
@@ -20,14 +20,14 @@ header, footer {
   header i, footer i {
     padding: 0 1.5rem;
     font-size: 1.5rem;
-    color: #6c5ce7; }
+    color: #034F84; }
     header i:hover, footer i:hover {
       animation: bounce 0.5s; }
   header a, footer a {
-    color: #6c5ce7;
+    color: #034F84;
     font-style: none; }
     header a:hover, footer a:hover {
-      color: black; }
+      color: #4e83a8; }
 
 .currentpage {
   font-weight: bold;
@@ -52,5 +52,9 @@ img {
 
 h3 {
   font-weight: bold; }
+
+.weightlossimages {
+  padding: 150px 0;
+  width: 50%; }
 
 /*# sourceMappingURL=style.css.map */
