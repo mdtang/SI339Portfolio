@@ -87,4 +87,7 @@ h3 {
   color: black;
   font-weight: bold; }
 
+#frontpage, #aboutcontent {
+  display: none; }
+
 /*# sourceMappingURL=style.css.map */
