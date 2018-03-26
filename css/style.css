@@ -52,26 +52,26 @@ h3 {
   font-weight: bold; }
 
 .designimages {
-  padding: 6rem 0; }
+  padding: 1rem 0; }
 
 .realseafoodimages {
-  padding: 6rem 0; }
+  padding: 1rem 0; }
 
 .michigansnowimages {
-  padding: 6rem 0; }
+  padding: 1rem 0; }
 
 .chinesefoodimages {
-  padding: 6rem 0; }
+  padding: 1rem 0; }
 
 .weightlossimages {
-  padding: 5rem 0;
+  padding: 1rem 0;
   width: 90%; }
 
 .weightlosstext {
   padding: 50px 0 50px 20px; }
 
-#aboutcontent {
-  padding: 3rem 5rem; }
+.imageandtext {
+  padding: 4rem 3rem; }
 
 .title:hover {
   text-decoration: none; }
