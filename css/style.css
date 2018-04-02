@@ -96,4 +96,10 @@ header {
 h2 {
   padding-top: 50px; }
 
+@media only screen and (max-width: 768px) {
+  #logo {
+    width: 50%;
+    margin: 3rem auto;
+    display: block; } }
+
 /*# sourceMappingURL=style.css.map */
