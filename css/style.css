@@ -101,5 +101,7 @@ h2 {
     width: 50%;
     margin: 3rem auto;
     display: block; } }
+#lastrow {
+  padding-bottom: 3rem; }
 
 /*# sourceMappingURL=style.css.map */
