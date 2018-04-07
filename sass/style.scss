@@ -1,26 +1,11 @@
+// color variables
 $white: #fff;
 $main-color:#034F84;
 $brighter-color:#4e83a8;
 
+// Google font
 * {
   font-family: 'Oxygen', sans-serif;
-}
-
-@keyframes bounce {
-	0%, 20%, 60%, 100% {
-		-webkit-transform: translateY(0);
-		transform: translateY(0);
-	}
-
-	40% {
-		-webkit-transform: translateY(-10px);
-		transform: translateY(-10px);
-	}
-
-	80% {
-		-webkit-transform: translateY(-5px);
-		transform: translateY(-5px);
-	}
 }
 
 header , footer{
@@ -47,15 +32,27 @@ header , footer{
 }
 }
 
+header {
+  text-align:center;
+}
+
+h2 {
+  padding-top:50px;
+}
+
+//active page text bolded and underlined
 .currentpage {
   font-weight:bold;
   text-decoration:underline;
 }
+
 img {
   width:100%; /* keeps images the same width */
   padding:10px;
   margin:0;
 }
+
+//front page images hover effect
 .frontpageimages {
   &:hover {
   -webkit-filter: blur(4px);
@@ -116,19 +113,11 @@ h3 {
   font-weight:bold;
 }
 
-#frontpage, #aboutcontent {
-  display:none;
+#lastrow {
+  padding-bottom:3rem;
 }
 
-header {
-  text-align:center;
-}
-
-h2 {
-  padding-top:50px;
-}
-
-
+// styles for about page logo
 @media only screen and (max-width: 768px) {
     #logo {
       width:50%;
@@ -137,6 +126,26 @@ h2 {
     }
 }
 
-#lastrow {
-  padding-bottom:3rem;
+
+// footer social icon animation
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-5px);
+		transform: translateY(-5px);
+	}
+}
+
+// hide front page content for jQuery fadeIn animation document.ready
+#frontpage, #aboutcontent {
+  display:none;
 }

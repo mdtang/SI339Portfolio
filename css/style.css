@@ -1,16 +1,6 @@
 * {
   font-family: 'Oxygen', sans-serif; }
 
-@keyframes bounce {
-  0%, 20%, 60%, 100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0); }
-  40% {
-    -webkit-transform: translateY(-10px);
-    transform: translateY(-10px); }
-  80% {
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px); } }
 header, footer {
   color: #034F84;
   padding: 1rem 0; }
@@ -28,6 +18,12 @@ header, footer {
     font-style: none; }
     header a:hover, footer a:hover {
       color: #4e83a8; }
+
+header {
+  text-align: center; }
+
+h2 {
+  padding-top: 50px; }
 
 .currentpage {
   font-weight: bold;
@@ -87,21 +83,25 @@ h3 {
   color: black;
   font-weight: bold; }
 
-#frontpage, #aboutcontent {
-  display: none; }
-
-header {
-  text-align: center; }
-
-h2 {
-  padding-top: 50px; }
+#lastrow {
+  padding-bottom: 3rem; }
 
 @media only screen and (max-width: 768px) {
   #logo {
     width: 50%;
     margin: 3rem auto;
     display: block; } }
-#lastrow {
-  padding-bottom: 3rem; }
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px); }
+  80% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px); } }
+#frontpage, #aboutcontent {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */
